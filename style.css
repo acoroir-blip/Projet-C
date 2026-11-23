@@ -1,0 +1,70 @@
+.cardexterieur{
+    height: 1058px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background-color: aqua;
+}
+
+.exterieur{
+    height: 50%;
+    width: 100%;
+    background-color: blueviolet;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.text{
+    padding-right: 105px;
+    width: 5%;
+    font-size: 15px;
+    font-weight: bold;
+}
+.mots{
+    font-size: 15px;
+    font-weight: bold;  
+}
+.Titre{
+    font-size: 27px;
+    font-weight: bold;    
+}
+.exterieurbas{
+    height: 50%;
+    width: 100%;
+    background-color: rgb(23, 227, 118);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.flexrow{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+     padding-right: 105px;
+    width: 85%;
+    padding-left: 25px;
+}
+.interieurhaut{
+    height: 73px;
+    width: 100%;
+    background-color: rgb(249, 248, 250);
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.interieurbas{
+    height: 438px;
+    width: 100%;
+    background-color: rgb(2, 2, 2);
+}
+.inferieurhaut{
+    height: 205px;
+    width: 100%;
+    background-color: white;
+}
+.inferieurbas{
+    height: 78px;
+    width: 100%;
+    background-color: rgb(2, 2, 2);
+}

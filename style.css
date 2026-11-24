@@ -1,16 +1,28 @@
-.cardexterieur{
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: antiquewhite;
+}
+.global{
+    width: 1000px;
+}
+
+
+.card{
     height: 1058px;
     width: 100%;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    background-color: aqua;
+    background-color: rgb(249, 248, 250);
+    
 }
 
-.exterieur{
+.haut{
     height: 50%;
     width: 100%;
-    background-color: blueviolet;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -27,9 +39,9 @@
 }
 .Titre{
     font-size: 27px;
-    font-weight: bold;    
+    font-weight: bolder;    
 }
-.exterieurbas{
+.bas{
     height: 50%;
     width: 100%;
     background-color: rgb(23, 227, 118);
@@ -56,7 +68,9 @@
 .interieurbas{
     height: 438px;
     width: 100%;
-    background-color: rgb(2, 2, 2);
+    background-color: rgb(15, 15, 15);
+    display: flex;
+    flex-direction: row;
 }
 .inferieurhaut{
     height: 205px;
@@ -66,5 +80,123 @@
 .inferieurbas{
     height: 78px;
     width: 100%;
-    background-color: rgb(2, 2, 2);
+    background-color: rgb(0, 0, 0);
+}
+.boiteimage{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 45%;
+    height: 100%;
+}
+.principale{
+    width: 55%;
+    height: 100%;  
+    display: flex; 
+    flex-direction: column;
+}
+.image{
+    height: 336px;
+    width: 336px;
+    
+}
+.firsttext{
+    font-size: 12px;
+    color: #DDF76D;
+    margin-top: 45px;
+    margin-left: 60px;
+    margin-bottom: 15px;
+}
+.titre{
+    font-size: 78px;
+    font-weight: bold;
+    color: #F8F6EF;
+    margin-left: 60px;
+    margin-bottom: 35px;
+    line-height: 100%;
+}
+.description{
+    font-size: 18px;
+    color: #F8F6EF;
+    margin-left: 60px;
+    margin-bottom: 35px;s
+}
+.listboite{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.programme{
+    height: 46px;
+    width: 173px;
+    background-color: #DDF76D;
+    margin-left: 60px;
+    border-radius: 4px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;    
+}
+.info{
+    color: #F8F6EF;
+    text-decoration: underline;
+    font-size: 15px;
+    margin-left: 25px;
+}
+.festival{
+    font-size: 53px;
+    color: #221E29;
+    font-weight: bolder; 
+    margin-left: 60px;
+    margin-top: 40px;
+    margin-bottom: 6px;
+}
+.faceB{
+    font-size: 18px;
+    color: #221E29;
+    margin-left: 60px;
+}
+.superboite{
+    width: 431px;
+    height: 91px;
+    border: #221E29 solid 1px;
+    background-color: white;
+    margin-bottom: 45px;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: space-around;
+}
+.premiereboite{
+    margin-left:60px ;
+    margin-right: 18px;
+}
+.inferieurmid{
+    background-color: #DDCDFB;
+}
+.specialtitre{
+    margin-bottom: 15px;
+}
+.paragraphes{
+    margin-left: 22px;
+    font-size: 16px;
+    font-weight: lighter; 
+    color: #221E29;
+    padding-bottom: 5px;
+}
+.superparagraphes{
+    margin-left: 22px;
+    font-size: 22px;
+    font-weight: bold;
+    color: #221E29; 
+}
+.WHITE{
+    color: white;
+    padding-bottom: 5px;
+}
+.UP{
+    padding-top: 20px;
+}
+.underline{
+    text-decoration: underline;
 }
